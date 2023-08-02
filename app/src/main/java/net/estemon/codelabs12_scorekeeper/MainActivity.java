@@ -21,11 +21,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView mScoreText1;
     private TextView mScoreText2;
 
-    private ImageButton decTeam1;
-    private ImageButton incTeam1;
-    private ImageButton decTeam2;
-    private ImageButton incTeam2;
-
     static final String STATE_SCORE_1 = "Team 1 Score";
     static final String STATE_SCORE_2 = "Team 2 Score";
 
@@ -40,10 +35,10 @@ public class MainActivity extends AppCompatActivity {
         mScoreText2 = findViewById(R.id.score_2);
 
         // Find ImageViews by ID
-        decTeam1 = findViewById(R.id.decreaseTeam1);
-        incTeam1 = findViewById(R.id.increaseTeam1);
-        decTeam2 = findViewById(R.id.decreaseTeam2);
-        incTeam2 = findViewById(R.id.increaseTeam2);
+        ImageButton decTeam1 = findViewById(R.id.decreaseTeam1);
+        ImageButton incTeam1 = findViewById(R.id.increaseTeam1);
+        ImageButton decTeam2 = findViewById(R.id.decreaseTeam2);
+        ImageButton incTeam2 = findViewById(R.id.increaseTeam2);
 
         // Set onClickListeners to each Imagebutton
         decTeam1.setOnClickListener(this::decreaseScore);

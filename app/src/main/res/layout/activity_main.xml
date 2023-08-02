@@ -16,7 +16,7 @@
         <ImageButton
             android:id="@+id/decreaseTeam1"
             style="@style/MinusButtons"
-            tools:ignore="RedundantDescriptionCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+            tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,ImageContrastCheck,RedundantDescriptionCheck" />
 
         <TextView
             android:text="@string/team_1_title"
@@ -32,7 +32,7 @@
         <ImageButton
             android:id="@+id/increaseTeam1"
             style="@style/PlusButtons"
-            tools:ignore="RedundantDescriptionCheck,DuplicateSpeakableTextCheck" />
+            tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,RedundantDescriptionCheck,ImageContrastCheck" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -44,7 +44,7 @@
         <ImageButton
             android:id="@+id/decreaseTeam2"
             style="@style/MinusButtons"
-            tools:ignore="RedundantDescriptionCheck,ImageContrastCheck" />
+            tools:ignore="ContentDescription,ImageContrastCheck,RedundantDescriptionCheck" />
 
         <TextView
             android:text="@string/team_2_title"
@@ -60,7 +60,7 @@
         <ImageButton
             android:id="@+id/increaseTeam2"
             style="@style/PlusButtons"
-            tools:ignore="RedundantDescriptionCheck" />
+            tools:ignore="ContentDescription,RedundantDescriptionCheck,ImageContrastCheck" />
     </RelativeLayout>
 
 </LinearLayout>

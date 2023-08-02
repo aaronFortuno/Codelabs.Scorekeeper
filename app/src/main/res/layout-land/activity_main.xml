@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:baselineAligned="false">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,7 +17,7 @@
         <ImageButton
             android:id="@+id/decreaseTeam1"
             style="@style/MinusButtons"
-            tools:ignore="RedundantDescriptionCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+            tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,ImageContrastCheck,RedundantDescriptionCheck" />
 
         <TextView
             android:text="@string/team_1_title"
@@ -32,7 +33,7 @@
         <ImageButton
             android:id="@+id/increaseTeam1"
             style="@style/PlusButtons"
-            tools:ignore="RedundantDescriptionCheck,DuplicateSpeakableTextCheck" />
+            tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,ImageContrastCheck,RedundantDescriptionCheck" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -44,7 +45,7 @@
         <ImageButton
             android:id="@+id/decreaseTeam2"
             style="@style/MinusButtons"
-            tools:ignore="RedundantDescriptionCheck,ImageContrastCheck" />
+            tools:ignore="ContentDescription,ImageContrastCheck,RedundantDescriptionCheck" />
 
         <TextView
             android:text="@string/team_2_title"
@@ -60,7 +61,7 @@
         <ImageButton
             android:id="@+id/increaseTeam2"
             style="@style/PlusButtons"
-            tools:ignore="RedundantDescriptionCheck" />
+            tools:ignore="ContentDescription,ImageContrastCheck,RedundantDescriptionCheck" />
     </RelativeLayout>
 
 </LinearLayout>
