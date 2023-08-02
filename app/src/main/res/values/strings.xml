@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Codelabs12 - Scorekeeper</string>
+    <string name="minus_button">Minus button</string>
+    <string name="team_1_title">Team 1</string>
+    <string name="team_2_title">Team 2</string>
+    <string name="team_2_score">0</string>
+    <string name="team_1_score">0</string>
+    <string name="plus_button">Plus button</string>
 </resources>
