@@ -14,39 +14,23 @@
 
         <ImageButton
             android:id="@+id/decreaseTeam1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:contentDescription="@string/minus_button"
-            android:src="@drawable/ic_minus"
+            style="@style/MinusButtons"
             tools:ignore="RedundantDescriptionCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
             android:text="@string/team_1_title"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap"
+            style="@style/TeamText" />
 
         <TextView
             android:id="@+id/score_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
             android:text="@string/team_1_score"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap"
+            style="@style/ScoreText" />
 
         <ImageButton
             android:id="@+id/increaseTeam1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:contentDescription="@string/plus_button"
-            android:src="@drawable/ic_plus"
+            style="@style/PlusButtons"
             tools:ignore="RedundantDescriptionCheck,DuplicateSpeakableTextCheck" />
     </RelativeLayout>
 
@@ -57,39 +41,23 @@
 
         <ImageButton
             android:id="@+id/decreaseTeam2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:contentDescription="@string/minus_button"
-            android:src="@drawable/ic_minus"
+            style="@style/MinusButtons"
             tools:ignore="RedundantDescriptionCheck,ImageContrastCheck" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
             android:text="@string/team_2_title"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap"
+            style="@style/TeamText" />
 
         <TextView
             android:id="@+id/score_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
             android:text="@string/team_2_score"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap"
+            style="@style/ScoreText" />
 
         <ImageButton
             android:id="@+id/increaseTeam2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:contentDescription="@string/plus_button"
-            android:src="@drawable/ic_plus"
+            style="@style/PlusButtons"
             tools:ignore="RedundantDescriptionCheck" />
     </RelativeLayout>
 
